@@ -7,7 +7,7 @@
     <img alt="typescript" src="https://img.shields.io/github/languages/top/bconnorwhite/is-name-taken.svg">
   </a>
   <a href="https://github.com/bconnorwhite/is-name-taken">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/bconnorwhite/npm-pd?label=Stars%20Appreciated%21&style=social">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/bconnorwhite/is-name-taken?label=Stars%20Appreciated%21&style=social">
   </a>
   <a href="https://twitter.com/bconnorwhite">
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/bconnorwhite.svg?label=%40bconnorwhite&style=social">
@@ -95,6 +95,7 @@ isValid(name: string) => boolean;
 
 ## Related Packages
 
-- [is-name-taken](https://npmjs.com/package/is-name-taken): Check if an NPM package name is taken
+- [package-name-conflict](https://npmjs.com/package/package-name-conflict): Check if NPM package names conflict
 - [all-package-names](https://npmjs.com/package/all-package-names): Get all NPM package names.
-
+- [npm-pd](https://npmjs.com/package/npms-pd): A CLI dashboard for NPM publishers
+- [npms-io-client](https://npmjs.com/package/npms-io-client): Isomorphic typed client for npms.io
