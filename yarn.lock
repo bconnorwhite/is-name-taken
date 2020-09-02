@@ -1434,10 +1434,10 @@ ajv@^6.12.3:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-all-package-names@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/all-package-names/-/all-package-names-1.0.0.tgz#b16ef821d609174485da736a126c51d68a9ba319"
-  integrity sha512-QKDrwztNNQomh7dZpN2Rdnn1WRlFn3DcMnoCLwzg16sz901kf0+pykoMBCyG19mtUrW/A1HVRX71kZKsmqTbUA==
+all-package-names@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/all-package-names/-/all-package-names-1.0.2.tgz#7e901245f88185466d59019b7cc28094e8bc9a10"
+  integrity sha512-K0kF7UkpgxbZDZHv41jdvPhbWNFZf3Q4MO5o7zxLwHNdq3GOtPejEOhxhknSc35emhgekE+m21wX5FpMjOclTQ==
   dependencies:
     "@bconnorwhite/module" "^1.0.6"
     commander "^6.1.0"
@@ -4088,10 +4088,10 @@ package-json@^6.3.0:
     registry-url "^5.0.0"
     semver "^6.2.0"
 
-package-name-conflict@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/package-name-conflict/-/package-name-conflict-1.0.0.tgz#cadb63dbb861a90b17430bc1d0d479dfc389f7c7"
-  integrity sha512-GheQ9r5AgeGmJyNqkAYYkQyYSxn1ussdP1EA1IE5p9581AspySvhMaztih+E0bUdgeoDpXk7Zlu3jOawC1pu+Q==
+package-name-conflict@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/package-name-conflict/-/package-name-conflict-1.0.1.tgz#b264847ea0b670487be649f6d8a8c02a35fbf7da"
+  integrity sha512-OC/M0kF5G0zFUL8upNvD10wToh1Vot5L0DM5W73y3x6MFkeHjL/tcHxfw1hZG1PKpy/Sg2ggJIjOhlECAFrRIQ==
 
 package-run@^1.1.7:
   version "1.1.7"
