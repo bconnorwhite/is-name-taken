@@ -1009,10 +1009,15 @@
   dependencies:
     parse-json-object "^1.0.0"
 
-"@bconnorwhite/json-types@^1.0.2", "@bconnorwhite/json-types@^1.0.3":
+"@bconnorwhite/json-types@^1.0.2":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@bconnorwhite/json-types/-/json-types-1.0.3.tgz#601cc65251450699d3d8c2fb30efbca9a48c3111"
   integrity sha512-0/4oYHVglgfKOBlFOAk+ssD39M4zfZsvnkAZT0s4yZyQr7w5HfTEsaMf3QLSPwow+waAi9IUFxTrDxCfO93wyQ==
+
+"@bconnorwhite/json-types@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@bconnorwhite/json-types/-/json-types-1.0.5.tgz#c638604ac07f326e74f0b082d34964e8baf6e75c"
+  integrity sha512-GyVHRWM0Q+PmY7Hicd4l8J2fpsWtb/o1UxsVuzJ8M0SLfpiTuNkak3iA4zCCg66jLnxt6SFEba8oHVRa0CJbeg==
 
 "@bconnorwhite/module@^1.0.4", "@bconnorwhite/module@^1.0.6":
   version "1.0.6"
@@ -1434,17 +1439,17 @@ ajv@^6.12.3:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-all-package-names@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/all-package-names/-/all-package-names-1.0.2.tgz#7e901245f88185466d59019b7cc28094e8bc9a10"
-  integrity sha512-K0kF7UkpgxbZDZHv41jdvPhbWNFZf3Q4MO5o7zxLwHNdq3GOtPejEOhxhknSc35emhgekE+m21wX5FpMjOclTQ==
+all-package-names@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/all-package-names/-/all-package-names-1.0.3.tgz#6cb5bc0c75d2c1d7a52e1f91dac5c689d35cf8a7"
+  integrity sha512-zROWWIUODNvkisYQKdGY9rJuTZ+g2plQit+krwVXTOcs1N1Cu2scCzRl4byHVhIz2NaVO64kr9kQrPA6G/yAKw==
   dependencies:
     "@bconnorwhite/module" "^1.0.6"
     commander "^6.1.0"
-    parse-json-object "^1.0.4"
+    parse-json-object "^1.0.5"
     progress "^2.0.3"
-    read-json-safe "^1.0.4"
-    write-json-safe "^1.0.0"
+    read-json-safe "^1.0.5"
+    write-json-safe "^1.0.1"
 
 ansi-align@^3.0.0:
   version "3.0.0"
@@ -4108,6 +4113,13 @@ parse-json-object@^1.0.0, parse-json-object@^1.0.4:
   dependencies:
     "@bconnorwhite/json-types" "^1.0.2"
 
+parse-json-object@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/parse-json-object/-/parse-json-object-1.0.5.tgz#53fa8c8ec9f6a9648708b9f2ff1d24f5d1f02a4c"
+  integrity sha512-EDnHR+z9CWj3GvFe1769f2hj81iKBIWOQ2iQpZyixmtartEQvWb39o0AXUGs8YHSoIIFrujZexkPNtwkRgFG/Q==
+  dependencies:
+    "@bconnorwhite/json-types" "^1.0.5"
+
 parse-json@^5.0.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-5.1.0.tgz#f96088cdf24a8faa9aea9a009f2d9d942c999646"
@@ -4291,6 +4303,14 @@ read-json-safe@^1.0.1, read-json-safe@^1.0.4:
   integrity sha512-N7l36VCY/0tCSZm+LbH+cxRnFVIpznfVDHuO2mKj/5pdFUVfIRSqYX0NfKB4QWVeRQkYjIMm1ZqTLSNz+kROyw==
   dependencies:
     parse-json-object "^1.0.4"
+    read-file-safe "^1.0.5"
+
+read-json-safe@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/read-json-safe/-/read-json-safe-1.0.5.tgz#c459443b8e6eb3a2672cf68ddc81d2f4ef95c8d7"
+  integrity sha512-SJyNY/U9+vW35FPus22Qvv1oilnR7PCfN2E70uKQEGaJS313A5/cz9Yhv7ZtWzZ+XIwrtEPxXf10BOyYemHehA==
+  dependencies:
+    parse-json-object "^1.0.5"
     read-file-safe "^1.0.5"
 
 read-pkg-up@^7.0.1:
@@ -4850,12 +4870,12 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
-stringify-json-object@^1.0.1:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/stringify-json-object/-/stringify-json-object-1.0.3.tgz#86162b4c7b60441c8c6fb9cf70ae822995db0943"
-  integrity sha512-G6iNZJDYVmDxraJw0Pkh+9hIki/RPrvz11VfSYgKWIToizFM5iAx5jAyDf8IXNOk61pHqfKDerRNmwxtFVP51Q==
+stringify-json-object@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/stringify-json-object/-/stringify-json-object-1.0.4.tgz#05ba7bece42f59766bc5861e4088a35113fe2a97"
+  integrity sha512-3MMwo6JzK/0fWXc9mPUi68cdqnkXnO5B47PFWx5kOVKhhkteCjFdq0rkudv+XW6/p8JIki2SPW4bOJpOAUxWlg==
   dependencies:
-    "@bconnorwhite/json-types" "^1.0.3"
+    "@bconnorwhite/json-types" "^1.0.5"
 
 strip-ansi@^5.1.0:
   version "5.2.0"
@@ -5365,18 +5385,18 @@ write-file-atomic@^3.0.0:
     signal-exit "^3.0.2"
     typedarray-to-buffer "^3.1.5"
 
-write-file-safe@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/write-file-safe/-/write-file-safe-1.0.2.tgz#2c83c34f1c565725c67535771ff3d3237d12e15e"
-  integrity sha512-KEaCVpDKWXchvy11YTS1hR1TAOCDLYfbWl4Z1hnu2Z6ztjkk2Qi2mADlnG3TW1H1Wr5CZVulCVLCdh46ca8yXQ==
+write-file-safe@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/write-file-safe/-/write-file-safe-1.0.3.tgz#6e259879617da395a641296d459e13d3ea36575f"
+  integrity sha512-bdAWuzoYTLhVmAvKU7MIy2tWUs6afawPrOaktl6YBGk28LRh5RphDLDAqoXXe2j9ZvLeh+fAblnhQ6wZ0hd+iQ==
 
-write-json-safe@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/write-json-safe/-/write-json-safe-1.0.0.tgz#f5cb003b59fe3ef31f86b8eea39a68f06dbe096d"
-  integrity sha512-EnHGSKh7JgsVYT8+7JsOiAJxqx+s2xexcMQ6q//oBjdI4uZUzRV5tN2HjxMQauYHpUvUAyRb4EU5mB/bzZ9AIg==
+write-json-safe@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/write-json-safe/-/write-json-safe-1.0.1.tgz#9d381de54133383f6fd01319e77fc407f58bfd6e"
+  integrity sha512-WSF+FGDYxXPxp2yJuenUO9OW1kdpeFHz3+BBWkzKsAZxIKNT4A3V33y5xyNHnneo4rozE6MBFV5NtwPGo4Nx3g==
   dependencies:
-    stringify-json-object "^1.0.1"
-    write-file-safe "^1.0.2"
+    stringify-json-object "^1.0.4"
+    write-file-safe "^1.0.3"
 
 ws@^7.2.3:
   version "7.3.1"

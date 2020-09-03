@@ -30,7 +30,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "all-package-names": "^1.0.2",
+    "all-package-names": "^1.0.3",
     "package-name-conflict": "^1.0.1",
     "validate-npm-package-name": "^3.0.0"
   },
