@@ -27,6 +27,7 @@
   "scripts": {
     "build": "bob build",
     "prepublishOnly": "yarn build && yarn test",
+    "postversion": "git push",
     "test": "jest"
   },
   "dependencies": {
