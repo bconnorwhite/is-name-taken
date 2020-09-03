@@ -1,6 +1,6 @@
 {
   "name": "is-name-taken",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check if an NPM package name is taken",
   "main": "./build/index.js",
   "author": "Connor White <connor.bcw@gmail.com>",
