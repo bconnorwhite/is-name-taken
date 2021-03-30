@@ -6,6 +6,9 @@
   <a href="https://github.com/bconnorwhite/is-name-taken">
     <img alt="typescript" src="https://img.shields.io/github/languages/top/bconnorwhite/is-name-taken.svg">
   </a>
+  <a href='https://coveralls.io/github/bconnorwhite/is-name-taken?branch=master'>
+    <img alt="Coverage Status" src="https://img.shields.io/coveralls/github/bconnorwhite/is-name-taken.svg?branch=master">
+  </a>
   <a href="https://github.com/bconnorwhite/is-name-taken">
     <img alt="GitHub stars" src="https://img.shields.io/github/stars/bconnorwhite/is-name-taken?label=Stars%20Appreciated%21&style=social">
   </a>
