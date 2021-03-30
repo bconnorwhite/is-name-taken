@@ -56,9 +56,19 @@ isValid("INVALID_NAME"); // false
 ```
 #### Types:
 ```ts
-isTaken(name: string) => Promise<boolean | string>;
+import { Options } from "is-name-taken";
+
+isTaken(name: string, options?: Options) => Promise<boolean | string>;
 
 isValid(name: string) => boolean;
+
+type Options = {
+  /**
+   * Setting optimistic to true will skip syncing latest packages from NPM.
+   * This is faster, but may lead to inconsistencies with recently published packages.
+   */ 
+  optimistic?: boolean;
+};
 ```
 
 ##
@@ -78,7 +88,6 @@ isValid(name: string) => boolean;
 <h2>Dev Dependencies<img align="right" alt="David" src="https://img.shields.io/david/dev/bconnorwhite/is-name-taken.svg"></h2>
 
 - [@bconnorwhite/bob](https://npmjs.com/package/@bconnorwhite/bob): Bob builds and watches typescript projects.
-- [jest](https://npmjs.com/package/jest): Delightful JavaScript Testing.
 - [@types/validate-npm-package-name](https://npmjs.com/package/@types/validate-npm-package-name): TypeScript definitions for validate-npm-package-name
 
 ##

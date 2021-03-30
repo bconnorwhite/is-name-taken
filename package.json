@@ -2,10 +2,13 @@
   "name": "is-name-taken",
   "version": "1.0.2",
   "description": "Check if an NPM package name is taken",
-  "main": "./build/index.js",
-  "author": "Connor White <connor.bcw@gmail.com>",
-  "homepage": "https://connorwhite.org/github/is-name-taken",
   "license": "MIT",
+  "author": {
+    "name": "Connor White",
+    "email": "connor.bcw@gmail.com",
+    "url": "https://connorwhite.org"
+  },
+  "homepage": "https://connorwhite.org/github/is-name-taken",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bconnorwhite/is-name-taken.git"
@@ -24,20 +27,32 @@
     "used",
     "if"
   ],
+  "files": [
+    "build"
+  ],
+  "main": "./build/index.js",
   "scripts": {
     "build": "bob build",
-    "prepublishOnly": "yarn build && yarn test",
+    "commit": "bob commit",
+    "lint": "bob lint",
     "postversion": "git push",
-    "test": "jest"
+    "prepublishOnly": "yarn build && yarn test",
+    "release": "bob publish",
+    "test": "bob test"
   },
   "dependencies": {
-    "all-package-names": "^1.0.3",
+    "all-package-names": "^1.0.11",
     "package-name-conflict": "^1.0.1",
     "validate-npm-package-name": "^3.0.0"
   },
   "devDependencies": {
-    "@bconnorwhite/bob": "^1.9.7",
-    "@types/validate-npm-package-name": "^3.0.0",
-    "jest": "^26.4.2"
+    "@bconnorwhite/bob": "^2.9.4",
+    "@types/validate-npm-package-name": "^3.0.2"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-bob"
+  },
+  "npmpackagejsonlint": {
+    "extends": "npm-package-json-lint-config-bob"
   }
 }
