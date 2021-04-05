@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/bconnorwhite/is-name-taken/compare/v1.1.0...v1.1.1) (2021-04-05)
+
+
+### Bug Fixes
+
+* dependency bump ([44d9c5c](https://github.com/bconnorwhite/is-name-taken/commit/44d9c5c8b140e7053786066a104c51e40b9a96df))
+
+
+
 # [1.1.0](https://github.com/bconnorwhite/is-name-taken/compare/v1.0.2...v1.1.0) (2021-03-30)
 
 
