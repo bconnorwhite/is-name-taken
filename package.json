@@ -41,7 +41,7 @@
     "test": "bob test"
   },
   "dependencies": {
-    "all-package-names": "^1.0.11",
+    "all-package-names": "^1.0.17",
     "package-name-conflict": "^1.0.1",
     "validate-npm-package-name": "^3.0.0"
   },

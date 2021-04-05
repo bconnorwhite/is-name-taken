@@ -2234,13 +2234,14 @@ ajv@^8.0.1:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-all-package-names@^1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/all-package-names/-/all-package-names-1.0.11.tgz#a6e255cd1d00deeb4648109120f9f2bda7d68f31"
-  integrity sha512-X6+lj89BJ0X8RYqD+YIWfUkNvso4TEeRiZwSyjdeGTTuWj6ZzdlJBhzUCptJa+HTuKgDPCMjJEXxXEyTRVsmFg==
+all-package-names@^1.0.17:
+  version "1.0.17"
+  resolved "https://registry.yarnpkg.com/all-package-names/-/all-package-names-1.0.17.tgz#b485e38a9f209b1a96cfb71a6696b3d80c6b9791"
+  integrity sha512-J0Oq/MJp5YYPFqOcdnTDkCYLtslZoTQmX5SDTPuPuaN2cW9+2+9KUW6NOOrMLkRD8Z7clkncm0pwTOPmxYmMBg==
   dependencies:
     "@bconnorwhite/package" "^4.2.2"
     commander-version "^1.1.0"
+    parse-json-object "^2.0.1"
     progress "^2.0.3"
     read-json-safe "^2.0.2"
     types-json "^1.2.2"
