@@ -61,17 +61,21 @@ isValid("INVALID_NAME"); // false
 ```ts
 import { Options } from "is-name-taken";
 
-isTaken(name: string, options?: Options) => Promise<boolean | string>;
-
-isValid(name: string) => boolean;
-
 type Options = {
+  /**
+   * Maximum milliseconds after a sync to avoid re-syncing
+   */
+  maxAge?: number;
   /**
    * Setting optimistic to true will skip syncing latest packages from NPM.
    * This is faster, but may lead to inconsistencies with recently published packages.
-   */ 
+   */
   optimistic?: boolean;
 };
+
+function isValid(name: string): boolean;
+
+function isTaken(name: string, options?: Options): Promise<string | boolean>;
 ```
 
 ##
@@ -80,7 +84,7 @@ type Options = {
 
 <h2>Dependencies<img align="right" alt="dependencies" src="https://img.shields.io/david/bconnorwhite/is-name-taken.svg"></h2>
 
-- [all-package-names](https://npmjs.com/package/all-package-names): Get all NPM package names.
+- [all-package-names](https://npmjs.com/package/all-package-names): Get all NPM package names
 - [package-name-conflict](https://npmjs.com/package/package-name-conflict): Check if NPM package names conflict
 - [validate-npm-package-name](https://npmjs.com/package/validate-npm-package-name): Give me a string and I'll tell you if it's a valid npm package name 
 

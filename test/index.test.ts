@@ -6,14 +6,14 @@ test("conflict", (done) => {
     expect(result).toBe("chalk");
     done?.();
   });
-}, 60000); // 60 seconds
+}, 30000);
 
 test("no conflict", (done) => {
   isTaken("package-that-doesnt-exist").then((result) => {
     expect(result).toBe(false);
     done?.();
   });
-}, 60000); // 60 seconds
+}, 30000);
 
 test("conflict optimistic", (done) => {
   isTaken("ch-alk", { optimistic: true }).then((result) => {
@@ -25,6 +25,13 @@ test("conflict optimistic", (done) => {
 test("no conflict optimistic", (done) => {
   isTaken("package-that-doesnt-exist", { optimistic: true }).then((result) => {
     expect(result).toBe(false);
+    done?.();
+  });
+});
+
+test("timeout", (done) => {
+  isTaken("ch-alk", { maxAge: 60000 }).then((result) => {
+    expect(result).toBe("chalk");
     done?.();
   });
 });

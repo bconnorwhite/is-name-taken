@@ -35,14 +35,12 @@
     "build": "bob build",
     "commit": "bob commit",
     "lint": "bob lint",
-    "postversion": "git push",
-    "prepublishOnly": "yarn build && yarn test",
     "release": "bob publish",
     "test": "bob test"
   },
   "dependencies": {
-    "all-package-names": "^1.0.17",
-    "package-name-conflict": "^1.0.1",
+    "all-package-names": "^2.0.2",
+    "package-name-conflict": "^1.0.3",
     "validate-npm-package-name": "^3.0.0"
   },
   "devDependencies": {
@@ -51,6 +49,11 @@
   },
   "eslintConfig": {
     "extends": "eslint-config-bob"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "bob lint commit"
+    }
   },
   "npmpackagejsonlint": {
     "extends": "npm-package-json-lint-config-bob"
