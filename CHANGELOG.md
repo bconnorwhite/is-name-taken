@@ -1,3 +1,17 @@
+# [2.0.0](https://github.com/bconnorwhite/is-name-taken/compare/v1.1.1...v2.0.0) (2021-04-08)
+
+
+### Features
+
+* add maxAge flag, improve caching ([9c4058a](https://github.com/bconnorwhite/is-name-taken/commit/9c4058ac3868ea53f08a3846e448b731ae747b08))
+
+
+### BREAKING CHANGES
+
+* replaced timeout flag with maxAge
+
+
+
 ## [1.1.1](https://github.com/bconnorwhite/is-name-taken/compare/v1.1.0...v1.1.1) (2021-04-05)
 
 
